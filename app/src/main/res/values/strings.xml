@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MeuPrimeiroProjeto</string>
+    <string name="ol_matheus">Olá, Matheus!</string>
+    <string name="click">click</string>
+    <string name="digite_seu_peso">Digite seu peso</string>
+    <string name="digite_sua_altura">Digite sua altura</string>
+    <string name="message_classificacao">Classificacao: %1s!</string>
+    <string name="resultado">RESULTADO</string>
+    <string name="veja_a_baixo_a_tabela">VEJA A BAIXO A TABELA:</string>
+    <string name="menor_que_18_5_abaixo_do_peso">MENOR QUE 18,5 ABAIXO DO PESO</string>
+    <string name="entre_18_5_e_24_9_normal">ENTRE 18,5 E 24,9\tNORMAL</string>
+    <string name="entre_25_e_29_9_obesidade_i">ENTRE 25 E 29,9\tObesidade I</string>
+    <string name="entre_30_e_39_99_obesidade_ii_severa">ENTRE 30 e 39,99\tObesidade II (severa)</string>
+    <string name="maior_que_40_obesidade_grave_iii">MAIOR QUE 40\tObesidade grave III</string>
+</resources>

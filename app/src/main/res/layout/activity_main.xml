@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtText_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_seu_peso"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtText_Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtText_peso"
+        android:layout_marginTop="16dp"
+        android:hint="@string/digite_sua_altura"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="38sp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/click"
+        tools:ignore="VisualLintButtonSize" />
+
+</RelativeLayout>
